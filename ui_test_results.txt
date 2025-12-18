@@ -1,0 +1,939 @@
+
+[1m[46m RUN [49m[22m [36mv4.0.15 [39m[90m/home/iann/Documents/sms_portail[39m
+
+[90mstderr[2m | __tests__/components/ui/sheet.test.tsx[2m > [22m[2mcomponents/ui/sheet.tsx[2m > [22m[2mrenders sheet with footer
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+[90mstderr[2m | __tests__/components/ui/alert-dialog.test.tsx[2m > [22m[2mcomponents/ui/alert-dialog.tsx[2m > [22m[2mrenders alert dialog with title
+[22m[39m`AlertDialogContent` requires a description for the component to be accessible for screen reader users.
+
+You can add a description to the `AlertDialogContent` by passing a `AlertDialogDescription` component as a child, which also benefits sighted users by adding visible context to the dialog.
+
+Alternatively, you can use your own component as a description by assigning it an `id` and passing the same value to the `aria-describedby` prop in `AlertDialogContent`. If the description is confusing or duplicative for sighted users, you can use the `@radix-ui/react-visually-hidden` primitive as a wrapper around your description component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/alert-dialog
+Warning: Missing `Description` or `aria-describedby={undefined}` for {AlertDialogContent}.
+
+[90mstderr[2m | __tests__/components/ui/command.test.tsx[2m > [22m[2mcomponents/ui/command.tsx[2m > [22m[2mrenders command dialog
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+ [32m✓[39m __tests__/components/ui/command.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 1010[2mms[22m[39m
+     [33m[2m✓[22m[39m renders command dialog [33m 665[2mms[22m[39m
+[90mstderr[2m | __tests__/components/ui/sheet.test.tsx[2m > [22m[2mcomponents/ui/sheet.tsx[2m > [22m[2mrenders sheet on right side by default
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+ [32m✓[39m __tests__/components/ui/switch.test.tsx [2m([22m[2m8 tests[22m[2m)[22m[33m 1125[2mms[22m[39m
+     [33m[2m✓[22m[39m renders switch component [33m 468[2mms[22m[39m
+[90mstderr[2m | __tests__/components/ui/alert-dialog.test.tsx[2m > [22m[2mcomponents/ui/alert-dialog.tsx[2m > [22m[2mrenders alert dialog with action and cancel buttons
+[22m[39m`AlertDialogContent` requires a description for the component to be accessible for screen reader users.
+
+You can add a description to the `AlertDialogContent` by passing a `AlertDialogDescription` component as a child, which also benefits sighted users by adding visible context to the dialog.
+
+Alternatively, you can use your own component as a description by assigning it an `id` and passing the same value to the `aria-describedby` prop in `AlertDialogContent`. If the description is confusing or duplicative for sighted users, you can use the `@radix-ui/react-visually-hidden` primitive as a wrapper around your description component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/alert-dialog
+`AlertDialogContent` requires a `AlertDialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `AlertDialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/alert-dialog
+Warning: Missing `Description` or `aria-describedby={undefined}` for {AlertDialogContent}.
+
+[90mstderr[2m | __tests__/components/ui/sheet.test.tsx[2m > [22m[2mcomponents/ui/sheet.tsx[2m > [22m[2mrenders sheet on left side
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+ [31m❯[39m __tests__/components/ui/toaster.test.tsx [2m([22m[2m7 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[33m 1414[2mms[22m[39m
+     [33m[2m✓[22m[39m renders toaster component [33m 663[2mms[22m[39m
+     [32m✓[39m renders toast from toasts array[32m 166[2mms[22m[39m
+     [33m[2m✓[22m[39m renders toast with title [33m 461[2mms[22m[39m
+[31m     [31m×[31m renders multiple toasts[39m[32m 14[2mms[22m[39m
+     [32m✓[39m renders toast viewport[32m 103[2mms[22m[39m
+[31m     [31m×[31m handles empty toasts array[39m[32m 1[2mms[22m[39m
+[31m     [31m×[31m renders toast with action[39m[32m 2[2mms[22m[39m
+[90mstderr[2m | __tests__/components/ui/alert-dialog.test.tsx[2m > [22m[2mcomponents/ui/alert-dialog.tsx[2m > [22m[2mapplies custom className to content
+[22m[39m`AlertDialogContent` requires a description for the component to be accessible for screen reader users.
+
+You can add a description to the `AlertDialogContent` by passing a `AlertDialogDescription` component as a child, which also benefits sighted users by adding visible context to the dialog.
+
+Alternatively, you can use your own component as a description by assigning it an `id` and passing the same value to the `aria-describedby` prop in `AlertDialogContent`. If the description is confusing or duplicative for sighted users, you can use the `@radix-ui/react-visually-hidden` primitive as a wrapper around your description component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/alert-dialog
+Warning: Missing `Description` or `aria-describedby={undefined}` for {AlertDialogContent}.
+
+ [31m❯[39m __tests__/components/ui/alert-dialog.test.tsx [2m([22m[2m5 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 1389[2mms[22m[39m
+     [32m✓[39m renders alert dialog[32m 129[2mms[22m[39m
+     [33m[2m✓[22m[39m renders alert dialog with title [33m 709[2mms[22m[39m
+     [32m✓[39m renders alert dialog with description[32m 199[2mms[22m[39m
+     [32m✓[39m renders alert dialog with action and cancel buttons[32m 145[2mms[22m[39m
+[31m     [31m×[31m applies custom className to content[39m[32m 203[2mms[22m[39m
+[90mstderr[2m | __tests__/components/ui/sheet.test.tsx[2m > [22m[2mcomponents/ui/sheet.tsx[2m > [22m[2mrenders sheet on top side
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+[90mstderr[2m | __tests__/components/ui/sheet.test.tsx[2m > [22m[2mcomponents/ui/sheet.tsx[2m > [22m[2mrenders sheet on bottom side
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+[90mstderr[2m | __tests__/components/ui/sheet.test.tsx[2m > [22m[2mcomponents/ui/sheet.tsx[2m > [22m[2mapplies custom className to content
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+ [31m❯[39m __tests__/components/ui/sheet.test.tsx [2m([22m[2m8 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 1860[2mms[22m[39m
+     [32m✓[39m renders sheet component[32m 116[2mms[22m[39m
+     [33m[2m✓[22m[39m renders sheet with open state [33m 555[2mms[22m[39m
+     [32m✓[39m renders sheet with footer[32m 191[2mms[22m[39m
+     [32m✓[39m renders sheet on right side by default[32m 261[2mms[22m[39m
+     [32m✓[39m renders sheet on left side[32m 171[2mms[22m[39m
+     [32m✓[39m renders sheet on top side[32m 226[2mms[22m[39m
+     [32m✓[39m renders sheet on bottom side[32m 146[2mms[22m[39m
+[31m     [31m×[31m applies custom className to content[39m[32m 189[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/radio-group.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 1807[2mms[22m[39m
+     [33m[2m✓[22m[39m renders radio group [33m 516[2mms[22m[39m
+     [33m[2m✓[22m[39m selects radio item [33m 613[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/accordion.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[33m 1043[2mms[22m[39m
+     [33m[2m✓[22m[39m renders accordion component [33m 479[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/button.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 1033[2mms[22m[39m
+     [33m[2m✓[22m[39m renders button component [33m 516[2mms[22m[39m
+ [31m❯[39m __tests__/components/ui/popover.test.tsx [2m([22m[2m3 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 979[2mms[22m[39m
+     [32m✓[39m renders popover component[32m 133[2mms[22m[39m
+     [33m[2m✓[22m[39m renders popover with content [33m 597[2mms[22m[39m
+[31m     [31m×[31m applies custom className to content[39m[32m 196[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/toggle.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 1075[2mms[22m[39m
+     [33m[2m✓[22m[39m renders toggle component [33m 492[2mms[22m[39m
+ [31m❯[39m __tests__/components/ui/tooltip.test.tsx [2m([22m[2m5 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 1229[2mms[22m[39m
+     [32m✓[39m renders tooltip component[32m 131[2mms[22m[39m
+[31m     [31m×[31m renders tooltip with open state[39m[33m 487[2mms[22m[39m
+     [32m✓[39m applies custom className to content[32m 129[2mms[22m[39m
+[31m     [31m×[31m renders tooltip with different side[39m[32m 228[2mms[22m[39m
+     [32m✓[39m renders tooltip trigger as button[32m 125[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/input.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 1032[2mms[22m[39m
+     [33m[2m✓[22m[39m renders input component [33m 525[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/textarea.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 977[2mms[22m[39m
+     [33m[2m✓[22m[39m renders textarea component [33m 501[2mms[22m[39m
+ [31m❯[39m __tests__/components/ui/select.test.tsx [2m([22m[2m7 tests[22m[2m | [22m[31m5 failed[39m[2m)[22m[33m 779[2mms[22m[39m
+     [32m✓[39m renders select component[32m 200[2mms[22m[39m
+[31m     [31m×[31m renders select with default value[39m[32m 31[2mms[22m[39m
+[31m     [31m×[31m renders select items[39m[32m 20[2mms[22m[39m
+[31m     [31m×[31m renders select with group and label[39m[32m 19[2mms[22m[39m
+[31m     [31m×[31m renders select with separator[39m[32m 16[2mms[22m[39m
+[31m     [31m×[31m handles disabled select[39m[33m 448[2mms[22m[39m
+     [32m✓[39m applies custom className to trigger[32m 41[2mms[22m[39m
+[90mstderr[2m | __tests__/components/ui/dialog.test.tsx[2m > [22m[2mcomponents/ui/dialog.tsx[2m > [22m[2mrenders dialog with footer
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+ [32m✓[39m __tests__/components/ui/collapsible.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 1082[2mms[22m[39m
+     [33m[2m✓[22m[39m renders collapsible component [33m 710[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/tabs.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 1308[2mms[22m[39m
+     [33m[2m✓[22m[39m renders tabs component [33m 486[2mms[22m[39m
+     [33m[2m✓[22m[39m switches tab content when trigger is clicked [33m 509[2mms[22m[39m
+[90mstderr[2m | __tests__/components/ui/dialog.test.tsx[2m > [22m[2mcomponents/ui/dialog.tsx[2m > [22m[2mapplies custom className to content
+[22m[39mWarning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+
+ [31m❯[39m __tests__/components/ui/dialog.test.tsx [2m([22m[2m4 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 1521[2mms[22m[39m
+     [32m✓[39m renders dialog component[32m 168[2mms[22m[39m
+     [33m[2m✓[22m[39m renders dialog with open state [33m 711[2mms[22m[39m
+     [33m[2m✓[22m[39m renders dialog with footer [33m 411[2mms[22m[39m
+[31m     [31m×[31m applies custom className to content[39m[32m 226[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/checkbox.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 1548[2mms[22m[39m
+     [33m[2m✓[22m[39m renders checkbox component [33m 506[2mms[22m[39m
+     [33m[2m✓[22m[39m checkbox can be checked [33m 326[2mms[22m[39m
+ [31m❯[39m __tests__/components/ui/loader.test.tsx [2m([22m[2m10 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 298[2mms[22m[39m
+[31m     [31m×[31m renders loader component[39m[32m 130[2mms[22m[39m
+     [32m✓[39m renders loader with different sizes[32m 42[2mms[22m[39m
+     [32m✓[39m renders loader with different variants[32m 33[2mms[22m[39m
+     [32m✓[39m renders loader with text[32m 19[2mms[22m[39m
+     [32m✓[39m renders fullscreen loader[32m 11[2mms[22m[39m
+     [32m✓[39m applies custom className[32m 11[2mms[22m[39m
+     [32m✓[39m renders skeleton loader[32m 8[2mms[22m[39m
+     [32m✓[39m renders card skeleton[32m 8[2mms[22m[39m
+     [32m✓[39m renders table skeleton with default rows[32m 12[2mms[22m[39m
+     [32m✓[39m renders table skeleton with custom rows[32m 18[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/dropdown/Dropdown.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[33m 622[2mms[22m[39m
+     [33m[2m✓[22m[39m calls onClose when clicking outside [33m 360[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/pagination.test.tsx [2m([22m[2m10 tests[22m[2m)[22m[33m 339[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/dropdown/DropdownItem.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 738[2mms[22m[39m
+     [33m[2m✓[22m[39m calls onClick when clicked [33m 353[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/card.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 281[2mms[22m[39m
+ [31m❯[39m __tests__/components/ui/date-picker.test.tsx [2m([22m[2m8 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 626[2mms[22m[39m
+     [32m✓[39m renders date picker[32m 111[2mms[22m[39m
+     [32m✓[39m renders with placeholder[32m 20[2mms[22m[39m
+     [32m✓[39m renders with default placeholder[32m 15[2mms[22m[39m
+[31m     [31m×[31m calls onChange when date is selected[39m[33m 419[2mms[22m[39m
+     [32m✓[39m renders disabled date picker[32m 16[2mms[22m[39m
+     [32m✓[39m applies custom className[32m 15[2mms[22m[39m
+     [32m✓[39m handles value prop[32m 14[2mms[22m[39m
+     [32m✓[39m handles undefined value[32m 12[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/breadcrumb.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 277[2mms[22m[39m
+ [31m❯[39m __tests__/components/ui/toggle-group.test.tsx [2m([22m[2m6 tests[22m[2m | [22m[31m4 failed[39m[2m)[22m[32m 274[2mms[22m[39m
+[31m     [31m×[31m renders toggle group[39m[32m 111[2mms[22m[39m
+     [32m✓[39m handles multiple selection[32m 107[2mms[22m[39m
+     [32m✓[39m handles single selection[32m 32[2mms[22m[39m
+[31m     [31m×[31m applies variant to group[39m[32m 7[2mms[22m[39m
+[31m     [31m×[31m applies size to group[39m[32m 6[2mms[22m[39m
+[31m     [31m×[31m applies custom className[39m[32m 7[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/modal/index.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 328[2mms[22m[39m
+ [31m❯[39m __tests__/components/ui/form.test.tsx [2m([22m[2m5 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 251[2mms[22m[39m
+     [32m✓[39m renders form component[32m 127[2mms[22m[39m
+     [32m✓[39m renders form with description[32m 25[2mms[22m[39m
+[31m     [31m×[31m renders form message[39m[32m 46[2mms[22m[39m
+     [32m✓[39m applies custom className to FormItem[32m 23[2mms[22m[39m
+     [32m✓[39m renders form field correctly[32m 25[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/date-range-picker.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 294[2mms[22m[39m
+ [31m❯[39m __tests__/components/ui/sidebar.test.tsx [2m([22m[2m4 tests[22m[2m | [22m[31m4 failed[39m[2m)[22m[32m 158[2mms[22m[39m
+[31m     [31m×[31m renders sidebar component[39m[32m 90[2mms[22m[39m
+[31m     [31m×[31m renders sidebar with header[39m[32m 13[2mms[22m[39m
+[31m     [31m×[31m renders sidebar with footer[39m[32m 32[2mms[22m[39m
+[31m     [31m×[31m renders complete sidebar structure[39m[32m 18[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/badge.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 341[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/slider.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 490[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/scroll-area.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[33m 396[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/toast.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[33m 1532[2mms[22m[39m
+     [33m[2m✓[22m[39m renders toast component [33m 719[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/table.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 284[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/alert.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 249[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/progress.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 286[2mms[22m[39m
+[90mstderr[2m | __tests__/components/ui/chart.test.tsx[2m > [22m[2mcomponents/ui/chart.tsx[2m > [22m[2mrenders chart container
+[22m[39mThe width(0) and height(0) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+
+[90mstderr[2m | __tests__/components/ui/chart.test.tsx[2m > [22m[2mcomponents/ui/chart.tsx[2m > [22m[2mrenders chart with tooltip
+[22m[39mThe width(0) and height(0) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+
+[90mstderr[2m | __tests__/components/ui/chart.test.tsx[2m > [22m[2mcomponents/ui/chart.tsx[2m > [22m[2mapplies config to chart
+[22m[39mThe width(0) and height(0) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+
+ [32m✓[39m __tests__/components/ui/chart.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 303[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/separator.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 200[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/label.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 168[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/use-toast.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m __tests__/components/ui/skeleton.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 99[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Suites 14 [49m[22m[31m⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/aspect-ratio.test.tsx[2m [ __tests__/components/ui/aspect-ratio.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "@radix-ui/react-aspect-ratio" from "src/components/ui/aspect-ratio.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/aspect-ratio.tsx[39m:1:38
+[33m  1  |  import * as AspectRatioPrimitive from "@radix-ui/react-aspect-ratio";
+     |                                         ^
+  2  |  const AspectRatio = AspectRatioPrimitive.Root;
+  3  |  export { AspectRatio };[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/avatar.test.tsx[2m [ __tests__/components/ui/avatar.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "@radix-ui/react-avatar" from "src/components/ui/avatar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/avatar.tsx[39m:2:33
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as AvatarPrimitive from "@radix-ui/react-avatar";
+     |                                    ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const Avatar = React.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ jsxDEV([39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/calendar.test.tsx[2m [ __tests__/components/ui/calendar.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "react-day-picker" from "src/components/ui/calendar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/calendar.tsx[39m:3:26
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { ChevronLeft, ChevronRight } from "lucide-react";
+  3  |  import { DayPicker } from "react-day-picker";
+     |                             ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  import { buttonVariants } from "@/components/ui/button";[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/carousel.test.tsx[2m [ __tests__/components/ui/carousel.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "embla-carousel-react" from "src/components/ui/carousel.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/carousel.tsx[39m:2:60
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import useEmblaCarousel from "embla-carousel-react";
+     |                                ^
+  4  |  import { ArrowLeft, ArrowRight } from "lucide-react";
+  5  |  import { cn } from "@/lib/utils";[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/context-menu.test.tsx[2m [ __tests__/components/ui/context-menu.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "@radix-ui/react-context-menu" from "src/components/ui/context-menu.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/context-menu.tsx[39m:2:38
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as ContextMenuPrimitive from "@radix-ui/react-context-menu";
+     |                                         ^
+  4  |  import { Check, ChevronRight, Circle } from "lucide-react";
+  5  |  import { cn } from "@/lib/utils";[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/drawer.test.tsx[2m [ __tests__/components/ui/drawer.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "vaul" from "src/components/ui/drawer.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/drawer.tsx[39m:2:42
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import { Drawer as DrawerPrimitive } from "vaul";
+     |                                             ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const Drawer = ({ shouldScaleBackground = true, ...props }) => /* @__PURE__ */ jsxDEV(DrawerPrimitive.Root, { shouldS...[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/dropdown-menu.test.tsx[2m [ __tests__/components/ui/dropdown-menu.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "@radix-ui/react-dropdown-menu" from "src/components/ui/dropdown-menu.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/dropdown-menu.tsx[39m:2:39
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
+     |                                          ^
+  4  |  import { Check, ChevronRight, Circle } from "lucide-react";
+  5  |  import { cn } from "@/lib/utils";[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/hover-card.test.tsx[2m [ __tests__/components/ui/hover-card.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "@radix-ui/react-hover-card" from "src/components/ui/hover-card.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/hover-card.tsx[39m:2:36
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as HoverCardPrimitive from "@radix-ui/react-hover-card";
+     |                                       ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const HoverCard = HoverCardPrimitive.Root;[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/input-otp.test.tsx[2m [ __tests__/components/ui/input-otp.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "input-otp" from "src/components/ui/input-otp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/input-otp.tsx[39m:2:42
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import { OTPInput, OTPInputContext } from "input-otp";
+     |                                             ^
+  4  |  import { Dot } from "lucide-react";
+  5  |  import { cn } from "@/lib/utils";[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/menubar.test.tsx[2m [ __tests__/components/ui/menubar.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "@radix-ui/react-menubar" from "src/components/ui/menubar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/menubar.tsx[39m:2:34
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as MenubarPrimitive from "@radix-ui/react-menubar";
+     |                                     ^
+  4  |  import { Check, ChevronRight, Circle } from "lucide-react";
+  5  |  import { cn } from "@/lib/utils";[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/navigation-menu.test.tsx[2m [ __tests__/components/ui/navigation-menu.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "@radix-ui/react-navigation-menu" from "src/components/ui/navigation-menu.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/navigation-menu.tsx[39m:2:41
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
+     |                                            ^
+  4  |  import { cva } from "class-variance-authority";
+  5  |  import { ChevronDown } from "lucide-react";[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/resizable.test.tsx[2m [ __tests__/components/ui/resizable.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "react-resizable-panels" from "src/components/ui/resizable.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/resizable.tsx[39m:2:36
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { GripVertical } from "lucide-react";
+  3  |  import * as ResizablePrimitive from "react-resizable-panels";
+     |                                       ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const ResizablePanelGroup = ({ className, ...props }) => /* @__PURE__ */ jsxDEV([39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/sonner.test.tsx[2m [ __tests__/components/ui/sonner.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve import "next-themes" from "src/components/ui/sonner.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/iann/Documents/sms_portail/src/components/ui/sonner.tsx[39m:1:25
+[33m  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useTheme } from "next-themes";
+     |                            ^
+  3  |  import { Toaster as Sonner, toast } from "sonner";
+  4  |  const Toaster = ({ ...props }) => {[39m
+[90m [2m❯[22m TransformPluginContext._formatLog node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28992:43[22m[39m
+[90m [2m❯[22m TransformPluginContext.error node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28989:14[22m[39m
+[90m [2m❯[22m normalizeUrl node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27112:18[22m[39m
+[90m [2m❯[22m node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27170:32[22m[39m
+[90m [2m❯[22m TransformPluginContext.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m27138:4[22m[39m
+[90m [2m❯[22m EnvironmentPluginContainer.transform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m28790:14[22m[39m
+[90m [2m❯[22m loadAndTransform node_modules/vitest/node_modules/vite/dist/node/chunks/config.js:[2m22660:26[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/alert/Alert.test.tsx[2m [ __tests__/components/ui/alert/Alert.test.tsx ][22m
+[31m[1mTypeError[22m: Signature "test(name, fn, { ... })" was deprecated in Vitest 3 and removed in Vitest 4. Please, provide options as a second argument instead.[39m
+[36m [2m❯[22m __tests__/components/ui/alert/Alert.test.tsx:[2m78:3[22m[39m
+    [90m 76| [39m  })[33m;[39m
+    [90m 77| [39m
+    [90m 78| [39m  [34mit[39m([32m"calls onDismiss when dismiss button is clicked"[39m[33m,[39m [35masync[39m () [33m=>[39m {
+    [90m   | [39m  [31m^[39m
+    [90m 79| [39m    [35mconst[39m user [33m=[39m userEvent[33m.[39m[34msetup[39m({ delay[33m:[39m [35mnull[39m })[33m;[39m
+    [90m 80| [39m    [35mconst[39m onDismiss [33m=[39m vi[33m.[39m[34mfn[39m()[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/39]⎯[22m[39m
+
+
+[31m⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Tests 25 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/alert-dialog.test.tsx[2m > [22mcomponents/ui/alert-dialog.tsx[2m > [22mapplies custom className to content
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/alert-dialog.test.tsx:[2m92:54[22m[39m
+    [90m 90| [39m      [33m<[39m[33m/[39m[33mAlertDialog[39m[33m>[39m
+    [90m 91| [39m    )[33m;[39m
+    [90m 92| [39m    expect(container.querySelector(".custom-class")).toBeInTheDocument…
+    [90m   | [39m                                                     [31m^[39m
+    [90m 93| [39m  })[33m;[39m
+    [90m 94| [39m})[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/date-picker.test.tsx[2m > [22mcomponents/ui/date-picker.tsx[2m > [22mcalls onChange when date is selected
+[31m[1mAssertionError[22m: expected "vi.fn()" to be called at least once[39m
+[36m [2m❯[22m __tests__/components/ui/date-picker.test.tsx:[2m52:26[22m[39m
+    [90m 50| [39m    [35mawait[39m user[33m.[39m[34mtype[39m(input[33m,[39m [32m"2024-01-15"[39m)[33m;[39m
+    [90m 51| [39m    
+    [90m 52| [39m    [34mexpect[39m(mockOnChange)[33m.[39m[34mtoHaveBeenCalled[39m()[33m;[39m
+    [90m   | [39m                         [31m^[39m
+    [90m 53| [39m  })[33m;[39m
+    [90m 54| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/dialog.test.tsx[2m > [22mcomponents/ui/dialog.tsx[2m > [22mapplies custom className to content
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/dialog.test.tsx:[2m75:55[22m[39m
+    [90m 73| [39m      [33m<[39m[33m/[39m[33mDialog[39m[33m>[39m
+    [90m 74| [39m    )[33m;[39m
+    [90m 75| [39m    expect(container.querySelector(".custom-dialog")).toBeInTheDocumen…
+    [90m   | [39m                                                      [31m^[39m
+    [90m 76| [39m  })[33m;[39m
+    [90m 77| [39m})[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/form.test.tsx[2m > [22mcomponents/ui/form.tsx[2m > [22mrenders form message
+[31m[1mError[22m: Too many re-renders. React limits the number of renders to prevent an infinite loop.[39m
+[90m [2m❯[22m renderWithHooksAgain node_modules/react-dom/cjs/react-dom-client.development.js:[2m7747:17[22m[39m
+[90m [2m❯[22m renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:[2m7665:21[22m[39m
+[90m [2m❯[22m updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:[2m10166:19[22m[39m
+[90m [2m❯[22m beginWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m11778:18[22m[39m
+[90m [2m❯[22m runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:[2m874:13[22m[39m
+[90m [2m❯[22m performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m17641:22[22m[39m
+[90m [2m❯[22m workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17469:41[22m[39m
+[90m [2m❯[22m renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17450:11[22m[39m
+[90m [2m❯[22m performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:[2m16583:35[22m[39m
+[90m [2m❯[22m performSyncWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:[2m18972:7[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/loader.test.tsx[2m > [22mcomponents/ui/loader.tsx[2m > [22mrenders loader component
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/loader.test.tsx:[2m9:20[22m[39m
+    [90m  7| [39m    [34mrenderWithProviders[39m([33m<[39m[33mLoader[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m  8| [39m    [35mconst[39m loader [33m=[39m screen[33m.[39m[34mqueryByRole[39m([32m"status"[39m[33m,[39m { hidden[33m:[39m [35mtrue[39m })[33m;[39m
+    [90m  9| [39m    [34mexpect[39m(loader)[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m   | [39m                   [31m^[39m
+    [90m 10| [39m  })[33m;[39m
+    [90m 11| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/popover.test.tsx[2m > [22mcomponents/ui/popover.tsx[2m > [22mapplies custom className to content
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/popover.test.tsx:[2m43:54[22m[39m
+    [90m 41| [39m      [33m<[39m[33m/[39m[33mPopover[39m[33m>[39m
+    [90m 42| [39m    )[33m;[39m
+    [90m 43| [39m    expect(container.querySelector(".custom-class")).toBeInTheDocument…
+    [90m   | [39m                                                     [31m^[39m
+    [90m 44| [39m  })[33m;[39m
+    [90m 45| [39m})[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[20/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/select.test.tsx[2m > [22mcomponents/ui/select.tsx[2m > [22mrenders select with default value
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/select.test.tsx:[2m41:44[22m[39m
+    [90m 39| [39m      [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+    [90m 40| [39m    )[33m;[39m
+    [90m 41| [39m    [34mexpect[39m(screen[33m.[39m[34mqueryByText[39m([32m"Option 1"[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m   | [39m                                           [31m^[39m
+    [90m 42| [39m  })[33m;[39m
+    [90m 43| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[21/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/select.test.tsx[2m > [22mcomponents/ui/select.tsx[2m > [22mrenders select items
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/select.test.tsx:[2m56:44[22m[39m
+    [90m 54| [39m      [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+    [90m 55| [39m    )[33m;[39m
+    [90m 56| [39m    [34mexpect[39m(screen[33m.[39m[34mqueryByText[39m([32m"Option 1"[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m   | [39m                                           [31m^[39m
+    [90m 57| [39m    [34mexpect[39m(screen[33m.[39m[34mqueryByText[39m([32m"Option 2"[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m 58| [39m  })[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/select.test.tsx[2m > [22mcomponents/ui/select.tsx[2m > [22mrenders select with group and label
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/select.test.tsx:[2m74:43[22m[39m
+    [90m 72| [39m      [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+    [90m 73| [39m    )[33m;[39m
+    [90m 74| [39m    [34mexpect[39m(screen[33m.[39m[34mqueryByText[39m([32m"Group 1"[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m   | [39m                                          [31m^[39m
+    [90m 75| [39m  })[33m;[39m
+    [90m 76| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[23/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/select.test.tsx[2m > [22mcomponents/ui/select.tsx[2m > [22mrenders select with separator
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/select.test.tsx:[2m90:44[22m[39m
+    [90m 88| [39m      [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+    [90m 89| [39m    )[33m;[39m
+    [90m 90| [39m    [34mexpect[39m(screen[33m.[39m[34mqueryByText[39m([32m"Option 1"[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m   | [39m                                           [31m^[39m
+    [90m 91| [39m    [34mexpect[39m(screen[33m.[39m[34mqueryByText[39m([32m"Option 2"[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m 92| [39m  })[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[24/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/select.test.tsx[2m > [22mcomponents/ui/select.tsx[2m > [22mhandles disabled select
+[31m[1mError[22m: [2mexpect([22m[31melement[31m[2m).toBeDisabled()[22m
+
+Received element is not disabled:
+  [31m<button
+  aria-expanded="false"
+  aria-haspopup="listbox"
+  class="flex h-10 w-full items-center justify-between rounded-xl border-2 border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white px-3 py-2 text-sm focus:outline-none focus:border-brand-500 dark:focus:border-brand-400 focus:ring-2 focus:ring-brand-500/20 dark:focus:ring-brand-400/20 focus:ring-offset-2 placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 disabled:bg-gray-50 dark:disabled:bg-gray-800/50 transition-colors"
+  role="combobox"
+  type="button"
+/>[31m[39m
+[36m [2m❯[22m __tests__/components/ui/select.test.tsx:[2m106:21[22m[39m
+    [90m104| [39m    )[33m;[39m
+    [90m105| [39m    [35mconst[39m trigger [33m=[39m screen[33m.[39m[34mqueryByRole[39m([32m"combobox"[39m)[33m;[39m
+    [90m106| [39m    [34mexpect[39m(trigger)[33m.[39m[34mtoBeDisabled[39m()[33m;[39m
+    [90m   | [39m                    [31m^[39m
+    [90m107| [39m  })[33m;[39m
+    [90m108| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[25/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/sheet.test.tsx[2m > [22mcomponents/ui/sheet.tsx[2m > [22mapplies custom className to content
+[31m[1mError[22m: [2mexpect([22m[31mreceived[31m[2m).toBeInTheDocument()[22m
+
+[31mreceived[31m value must be an HTMLElement or an SVGElement.
+Received has type:  Null
+Received has value: [31mnull[31m[39m
+[36m [2m❯[22m __tests__/components/ui/sheet.test.tsx:[2m117:54[22m[39m
+    [90m115| [39m      [33m<[39m[33m/[39m[33mSheet[39m[33m>[39m
+    [90m116| [39m    )[33m;[39m
+    [90m117| [39m    expect(container.querySelector(".custom-sheet")).toBeInTheDocument…
+    [90m   | [39m                                                     [31m^[39m
+    [90m118| [39m  })[33m;[39m
+    [90m119| [39m})[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[26/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/sidebar.test.tsx[2m > [22mcomponents/ui/sidebar.tsx[2m > [22mrenders sidebar component
+[41m[1m FAIL [22m[49m __tests__/components/ui/sidebar.test.tsx[2m > [22mcomponents/ui/sidebar.tsx[2m > [22mrenders sidebar with header
+[41m[1m FAIL [22m[49m __tests__/components/ui/sidebar.test.tsx[2m > [22mcomponents/ui/sidebar.tsx[2m > [22mrenders sidebar with footer
+[41m[1m FAIL [22m[49m __tests__/components/ui/sidebar.test.tsx[2m > [22mcomponents/ui/sidebar.tsx[2m > [22mrenders complete sidebar structure
+[31m[1mError[22m: useSidebar must be used within a SidebarProvider.[39m
+[36m [2m❯[22m useSidebar src/components/ui/sidebar.tsx:[2m32:11[22m[39m
+    [90m 30| [39m  [35mconst[39m context [33m=[39m [33mReact[39m[33m.[39m[34museContext[39m([33mSidebarContext[39m)[33m;[39m
+    [90m 31| [39m  [35mif[39m ([33m![39mcontext) {
+    [90m 32| [39m    throw new Error("useSidebar must be used within a SidebarProvider.…
+    [90m   | [39m          [31m^[39m
+    [90m 33| [39m  }
+    [90m 34| [39m  [35mreturn[39m context[33m;[39m
+[90m [2m❯[22m Sidebar src/components/ui/sidebar.tsx:[2m116:58[22m[39m
+[90m [2m❯[22m Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:[2m25904:20[22m[39m
+[90m [2m❯[22m renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:[2m7662:22[22m[39m
+[90m [2m❯[22m updateForwardRef node_modules/react-dom/cjs/react-dom-client.development.js:[2m9724:19[22m[39m
+[90m [2m❯[22m beginWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m12117:18[22m[39m
+[90m [2m❯[22m runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:[2m874:13[22m[39m
+[90m [2m❯[22m performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m17641:22[22m[39m
+[90m [2m❯[22m workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17469:41[22m[39m
+[90m [2m❯[22m renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17450:11[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[27/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/toaster.test.tsx[2m > [22mcomponents/ui/toaster.tsx[2m > [22mrenders multiple toasts
+[31m[1mError[22m: Cannot find module '../../../src/hooks/use-toast'
+Require stack:
+- /home/iann/Documents/sms_portail/__tests__/components/ui/toaster.test.tsx[39m
+[36m [2m❯[22m __tests__/components/ui/toaster.test.tsx:[2m48:15[22m[39m
+    [90m 46| [39m    ][33m;[39m
+    [90m 47| [39m    
+    [90m 48| [39m    vi.mocked(require("../../../src/hooks/use-toast").useToast).mockRe…
+    [90m   | [39m              [31m^[39m
+    [90m 49| [39m      toasts[33m:[39m multipleToasts[33m,[39m
+    [90m 50| [39m    } [35mas[39m any)[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[28/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/toaster.test.tsx[2m > [22mcomponents/ui/toaster.tsx[2m > [22mhandles empty toasts array
+[31m[1mError[22m: Cannot find module '../../../src/hooks/use-toast'
+Require stack:
+- /home/iann/Documents/sms_portail/__tests__/components/ui/toaster.test.tsx[39m
+[36m [2m❯[22m __tests__/components/ui/toaster.test.tsx:[2m62:15[22m[39m
+    [90m 60| [39m
+    [90m 61| [39m  [34mit[39m([32m"handles empty toasts array"[39m[33m,[39m () [33m=>[39m {
+    [90m 62| [39m    vi.mocked(require("../../../src/hooks/use-toast").useToast).mockRe…
+    [90m   | [39m              [31m^[39m
+    [90m 63| [39m      toasts[33m:[39m [][33m,[39m
+    [90m 64| [39m    } [35mas[39m any)[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[29/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/toaster.test.tsx[2m > [22mcomponents/ui/toaster.tsx[2m > [22mrenders toast with action
+[31m[1mError[22m: Cannot find module '../../../src/hooks/use-toast'
+Require stack:
+- /home/iann/Documents/sms_portail/__tests__/components/ui/toaster.test.tsx[39m
+[36m [2m❯[22m __tests__/components/ui/toaster.test.tsx:[2m80:15[22m[39m
+    [90m 78| [39m    ][33m;[39m
+    [90m 79| [39m    
+    [90m 80| [39m    vi.mocked(require("../../../src/hooks/use-toast").useToast).mockRe…
+    [90m   | [39m              [31m^[39m
+    [90m 81| [39m      toasts[33m:[39m toastsWithAction[33m,[39m
+    [90m 82| [39m    } [35mas[39m any)[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[30/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/toggle-group.test.tsx[2m > [22mcomponents/ui/toggle-group.tsx[2m > [22mrenders toggle group
+[41m[1m FAIL [22m[49m __tests__/components/ui/toggle-group.test.tsx[2m > [22mcomponents/ui/toggle-group.tsx[2m > [22mapplies variant to group
+[41m[1m FAIL [22m[49m __tests__/components/ui/toggle-group.test.tsx[2m > [22mcomponents/ui/toggle-group.tsx[2m > [22mapplies size to group
+[41m[1m FAIL [22m[49m __tests__/components/ui/toggle-group.test.tsx[2m > [22mcomponents/ui/toggle-group.tsx[2m > [22mapplies custom className
+[31m[1mError[22m: Missing prop `type` expected on `ToggleGroup`[39m
+[90m [2m❯[22m ToggleGroup node_modules/@radix-ui/react-toggle-group/dist/index.mjs:[2m28:9[22m[39m
+[90m [2m❯[22m Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:[2m25904:20[22m[39m
+[90m [2m❯[22m renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:[2m7662:22[22m[39m
+[90m [2m❯[22m updateForwardRef node_modules/react-dom/cjs/react-dom-client.development.js:[2m9724:19[22m[39m
+[90m [2m❯[22m beginWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m12117:18[22m[39m
+[90m [2m❯[22m runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:[2m874:13[22m[39m
+[90m [2m❯[22m performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m17641:22[22m[39m
+[90m [2m❯[22m workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17469:41[22m[39m
+[90m [2m❯[22m renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17450:11[22m[39m
+[90m [2m❯[22m performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:[2m16583:35[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[31/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/tooltip.test.tsx[2m > [22mcomponents/ui/tooltip.tsx[2m > [22mrenders tooltip with open state
+[31m[1mTestingLibraryElementError[22m: Found multiple elements with the text: Content
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<div[31m
+  [33mclass[31m=[32m"z-50 overflow-hidden rounded-md border bg-popover px-3 py-1.5 text-sm text-popover-foreground shadow-md animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"[31m
+  [33mdata-align[31m=[32m"center"[31m
+  [33mdata-side[31m=[32m"top"[31m
+  [33mdata-state[31m=[32m"instant-open"[31m
+  [33mstyle[31m=[32m"--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"[31m
+[36m>[31m
+  [0mContent[0m
+  [36m<span[31m
+    [33mid[31m=[32m"radix-_r_1_"[31m
+    [33mrole[31m=[32m"tooltip"[31m
+    [33mstyle[31m=[32m"position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"[31m
+  [36m>[31m
+    [0mContent[0m
+  [36m</span>[31m
+[36m</div>[31m
+
+Ignored nodes: comments, script, style
+[36m<span[31m
+  [33mid[31m=[32m"radix-_r_1_"[31m
+  [33mrole[31m=[32m"tooltip"[31m
+  [33mstyle[31m=[32m"position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"[31m
+[36m>[31m
+  [0mContent[0m
+[36m</span>[31m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<button[31m
+      [33maria-describedby[31m=[32m"radix-_r_1_"[31m
+      [33mdata-state[31m=[32m"instant-open"[31m
+    [36m>[31m
+      [0mTrigger[0m
+    [36m</button>[31m
+    [36m<div[31m
+      [33mdata-radix-popper-content-wrapper[31m=[32m""[31m
+      [33mstyle[31m=[32m"position: fixed; left: 0px; top: 0px; transform: translate(0, -200%); min-width: max-content;"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"z-50 overflow-hidden rounded-md border bg-popover px-3 py-1.5 text-sm text-popover-foreground shadow-md animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"[31m
+        [33mdata-align[31m=[32m"center"[31m
+        [33mdata-side[31m=[32m"top"[31m
+        [33mdata-state[31m=[32m"instant-open"[31m
+        [33mstyle[31m=[32m"--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"[31m
+      [36m>[31m
+        [0mContent[0m
+        [36m<span[31m
+          [33mid[31m=[32m"radix-_r_1_"[31m
+          [33mrole[31m=[32m"tooltip"[31m
+          [33mstyle[31m=[32m"position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"[31m
+        [36m>[31m
+          [0mContent[0m
+        [36m</span>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"fixed bottom-4 right-4 z-[999999] w-[300px] space-y-3"[31m
+    [36m/>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m getElementError node_modules/@testing-library/dom/dist/query-helpers.js:[2m20:35[22m[39m
+[90m [2m❯[22m getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:[2m23:10[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m55:13[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m __tests__/components/ui/tooltip.test.tsx:[2m32:19[22m[39m
+    [90m 30| [39m      [33m<[39m[33m/[39m[33mTooltipProvider[39m[33m>[39m
+    [90m 31| [39m    )[33m;[39m
+    [90m 32| [39m    [34mexpect[39m(screen[33m.[39m[34mqueryByText[39m([32m"Content"[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m   | [39m                  [31m^[39m
+    [90m 33| [39m  })[33m;[39m
+    [90m 34| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[32/39]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/components/ui/tooltip.test.tsx[2m > [22mcomponents/ui/tooltip.tsx[2m > [22mrenders tooltip with different side
+[31m[1mTestingLibraryElementError[22m: Found multiple elements with the text: Right tooltip
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<div[31m
+  [33mclass[31m=[32m"z-50 overflow-hidden rounded-md border bg-popover px-3 py-1.5 text-sm text-popover-foreground shadow-md animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"[31m
+  [33mdata-align[31m=[32m"center"[31m
+  [33mdata-side[31m=[32m"right"[31m
+  [33mdata-state[31m=[32m"instant-open"[31m
+  [33mstyle[31m=[32m"--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"[31m
+[36m>[31m
+  [0mRight tooltip[0m
+  [36m<span[31m
+    [33mid[31m=[32m"radix-_r_3_"[31m
+    [33mrole[31m=[32m"tooltip"[31m
+    [33mstyle[31m=[32m"position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"[31m
+  [36m>[31m
+    [0mRight tooltip[0m
+  [36m</span>[31m
+[36m</div>[31m
+
+Ignored nodes: comments, script, style
+[36m<span[31m
+  [33mid[31m=[32m"radix-_r_3_"[31m
+  [33mrole[31m=[32m"tooltip"[31m
+  [33mstyle[31m=[32m"position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"[31m
+[36m>[31m
+  [0mRight tooltip[0m
+[36m</span>[31m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<button[31m
+      [33maria-describedby[31m=[32m"radix-_r_3_"[31m
+      [33mdata-state[31m=[32m"instant-open"[31m
+    [36m>[31m
+      [0mTrigger[0m
+    [36m</button>[31m
+    [36m<div[31m
+      [33mdata-radix-popper-content-wrapper[31m=[32m""[31m
+      [33mstyle[31m=[32m"position: fixed; left: 0px; top: 0px; transform: translate(0, -200%); min-width: max-content;"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"z-50 overflow-hidden rounded-md border bg-popover px-3 py-1.5 text-sm text-popover-foreground shadow-md animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"[31m
+        [33mdata-align[31m=[32m"center"[31m
+        [33mdata-side[31m=[32m"right"[31m
+        [33mdata-state[31m=[32m"instant-open"[31m
+        [33mstyle[31m=[32m"--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"[31m
+      [36m>[31m
+        [0mRight tooltip[0m
+        [36m<span[31m
+          [33mid[31m=[32m"radix-_r_3_"[31m
+          [33mrole[31m=[32m"tooltip"[31m
+          [33mstyle[31m=[32m"position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"[31m
+        [36m>[31m
+          [0mRight tooltip[0m
+        [36m</span>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"fixed bottom-4 right-4 z-[999999] w-[300px] space-y-3"[31m
+    [36m/>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m getElementError node_modules/@testing-library/dom/dist/query-helpers.js:[2m20:35[22m[39m
+[90m [2m❯[22m getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:[2m23:10[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m55:13[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m __tests__/components/ui/tooltip.test.tsx:[2m57:19[22m[39m
+    [90m 55| [39m      [33m<[39m[33m/[39m[33mTooltipProvider[39m[33m>[39m
+    [90m 56| [39m    )[33m;[39m
+    [90m 57| [39m    [34mexpect[39m(screen[33m.[39m[34mqueryByText[39m([32m"Right tooltip"[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m   | [39m                  [31m^[39m
+    [90m 58| [39m  })[33m;[39m
+    [90m 59| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[33/39]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m26 failed[39m[22m[2m | [22m[1m[32m30 passed[39m[22m[90m (56)[39m
+[2m      Tests [22m [1m[31m25 failed[39m[22m[2m | [22m[1m[32m248 passed[39m[22m[90m (273)[39m
+[2m   Start at [22m 13:22:33
+[2m   Duration [22m 32.62s[2m (transform 3.26s, setup 10.28s, import 40.67s, tests 31.05s, environment 73.19s)[22m
+

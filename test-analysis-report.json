@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-11T06:20:26.746Z",
+  "summary": {
+    "filesFailed": 0,
+    "filesPassed": 0,
+    "testsFailed": 0,
+    "testsPassed": 0
+  },
+  "failingTests": [],
+  "byPattern": {},
+  "totalFailing": 0
+}

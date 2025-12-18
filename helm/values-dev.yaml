@@ -1,0 +1,34 @@
+namespace: da-mno
+
+envVars:
+  NODE_ENV: production
+  APP_ENV: development
+  SYSTEM_PORT: 3000
+  SYSTEM_HOST: 0.0.0.0
+  NEXT_PUBLIC_API_BASE_URL: "https://billing-api.dev.mercury.dadanadagroup.com"
+  NEXT_PUBLIC_SMS_API_BASE_URL: "https://sms-service.dev.mercury.dadanada-group.com"
+  LOGSTASH_ENDPOINT: logstash-logstash.logging.svc.cluster.local:4560
+
+redis:
+  enabled: false
+
+resources:
+  limits:
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+ingress:
+  hosts:
+    - sms-portal.dev.mercury.dadanadagroup.com
+
+probes:
+  readiness:
+    path: /
+    timeoutSeconds: 5
+    initialDelaySeconds: 30
+  liveness:
+    path: /
+    timeoutSeconds: 5
+    initialDelaySeconds: 60

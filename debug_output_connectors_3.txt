@@ -1,0 +1,436 @@
+
+[1m[46m RUN [49m[22m [36mv4.0.15 [39m[90m/home/iann/Documents/sms_portail[39m
+
+[90mstdout[2m | __tests__/app/(admin)/admin/connectors/page.test.tsx[2m > [22m[2mapp/(admin)/admin/connectors/page[2m > [22m[2mhandles edit form submission
+[22m[39mDEBUG: Dialog HTML: <div class="flex flex-col space-y-1.5 text-center sm:text-left"><h2 id="radix-_r_48_" class="text-lg font-semibold leading-none tracking-tight flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen h-5 w-5 text-blue-600" aria-hidden="true"><path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"></path></svg>Edit Connector</h2><p id="radix-_r_49_" class="text-sm text-muted-foreground">Update connector configuration.</p></div><form><div class="space-y-4 py-4"><div><label class="text-sm font-semibold leading-none text-gray-700 dark:text-gray-200 peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="edit-connector-name">Connector Name *</label><input class="flex w-full border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-base text-gray-900 dark:text-white ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:border-brand-500 dark:focus-visible:border-brand-400 focus-visible:ring-2 focus-visible:ring-brand-500/20 dark:focus-visible:ring-brand-400/20 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:bg-gray-50 dark:disabled:bg-gray-800/50 md:text-sm transition-colors mt-2 h-11 rounded-xl border-2" id="edit-connector-name" placeholder="e.g., Safaricom, Airtel, MTN" required="" value="Test Connector"></div><div class="grid gap-4 sm:grid-cols-2"><div><label class="text-sm font-semibold leading-none text-gray-700 dark:text-gray-200 peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="edit-scope">Scope *</label><input class="flex w-full border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-base text-gray-900 dark:text-white ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:border-brand-500 dark:focus-visible:border-brand-400 focus-visible:ring-2 focus-visible:ring-brand-500/20 dark:focus-visible:ring-brand-400/20 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:bg-gray-50 dark:disabled:bg-gray-800/50 md:text-sm transition-colors mt-2 h-11 rounded-xl border-2" id="edit-scope" placeholder="e.g., local, international" required="" value="local"></div><div><label class="text-sm font-semibold leading-none text-gray-700 dark:text-gray-200 peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="edit-queue-prefix">Queue Prefix *</label><input class="flex w-full border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-base text-gray-900 dark:text-white ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:border-brand-500 dark:focus-visible:border-brand-400 focus-visible:ring-2 focus-visible:ring-brand-500/20 dark:focus-visible:ring-brand-400/20 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:bg-gray-50 dark:disabled:bg-gray-800/50 md:text-sm transition-colors mt-2 h-11 rounded-xl border-2" id="edit-queue-prefix" placeholder="e.g., safaricom, airtel" required="" value="test"></div></div><div class="grid gap-4 sm:grid-cols-2"><div><label class="text-sm font-semibold leading-none text-gray-700 dark:text-gray-200 peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="edit-mcc">MCC (Mobile Country Code) *</label><input class="flex w-full border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-base text-gray-900 dark:text-white ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:border-brand-500 dark:focus-visible:border-brand-400 focus-visible:ring-2 focus-visible:ring-brand-500/20 dark:focus-visible:ring-brand-400/20 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:bg-gray-50 dark:disabled:bg-gray-800/50 md:text-sm transition-colors mt-2 h-11 rounded-xl border-2" id="edit-mcc" placeholder="e.g., 639" required="" type="number" value="639"></div><div><label class="text-sm font-semibold leading-none text-gray-700 dark:text-gray-200 peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="edit-mnc">MNC (Mobile Network Code) *</label><input class="flex w-full border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-base text-gray-900 dark:text-white ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:border-brand-500 dark:focus-visible:border-brand-400 focus-visible:ring-2 focus-visible:ring-brand-500/20 dark:focus-visible:ring-brand-400/20 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:bg-gray-50 dark:disabled:bg-gray-800/50 md:text-sm transition-colors mt-2 h-11 rounded-xl border-2" id="edit-mnc" placeholder="e.g., 1" required="" type="number" value="1"></div></div></div><div class="flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2"><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-input text-gray-900 dark:text-white hover:text-accent-foreground px-4 py-2 h-11 rounded-xl border-2 bg-white shadow-sm transition-all hover:bg-gray-50 hover:shadow-md dark:bg-gray-900 dark:hover:bg-gray-800" type="button">Cancel</button><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 px-4 py-2 h-11 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-lg shadow-blue-500/25 transition-all hover:from-blue-700 hover:to-blue-800" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen mr-2 h-4 w-4" aria-hidden="true"><path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"></path></svg>Update Connector</button></div></form><button type="button" class="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-white dark:ring-offset-gray-900 transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 disabled:pointer-events-none text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 bg-white/50 dark:bg-gray-800/50 hover:bg-gray-100 dark:hover:bg-gray-700 p-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4 w-4" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg><span class="sr-only">Close</span></button>
+
+ [31m❯[39m __tests__/app/(admin)/admin/connectors/page.test.tsx [2m([22m[2m26 tests[22m[2m | [22m[31m7 failed[39m[2m)[22m[33m 14801[2mms[22m[39m
+     [33m[2m✓[22m[39m module loads [33m 2158[2mms[22m[39m
+     [33m[2m✓[22m[39m renders connectors page [33m 2560[2mms[22m[39m
+     [33m[2m✓[22m[39m renders header with title and description [33m 4600[2mms[22m[39m
+     [33m[2m✓[22m[39m renders create connector button [33m 5038[2mms[22m[39m
+     [33m[2m✓[22m[39m renders search input [33m 5437[2mms[22m[39m
+     [33m[2m✓[22m[39m handles search input change [33m 1897[2mms[22m[39m
+[31m     [31m×[31m opens create dialog[39m[33m 5605[2mms[22m[39m
+[31m     [31m×[31m closes create dialog[39m[33m 5456[2mms[22m[39m
+[31m     [31m×[31m handles create form submission[39m[33m 5341[2mms[22m[39m
+[31m     [31m×[31m handles create form validation errors[39m[33m 5737[2mms[22m[39m
+     [33m[2m✓[22m[39m opens view dialog [33m 823[2mms[22m[39m
+     [33m[2m✓[22m[39m opens edit dialog [33m 490[2mms[22m[39m
+     [33m[2m✓[22m[39m handles edit form submission [33m 1815[2mms[22m[39m
+[31m     [31m×[31m opens delete dialog[39m[33m 5470[2mms[22m[39m
+     [33m[2m✓[22m[39m handles delete confirmation [33m 1196[2mms[22m[39m
+     [32m✓[39m shows loading state[32m 105[2mms[22m[39m
+     [33m[2m✓[22m[39m shows empty state [33m 547[2mms[22m[39m
+     [33m[2m✓[22m[39m renders connectors table [33m 629[2mms[22m[39m
+[31m     [31m×[31m handles filtered connectors[39m[33m 4842[2mms[22m[39m
+     [33m[2m✓[22m[39m handles connectors from data format [33m 1146[2mms[22m[39m
+     [33m[2m✓[22m[39m handles create without apiKey [33m 1920[2mms[22m[39m
+     [33m[2m✓[22m[39m handles create with invalid mcc/mnc [33m 2452[2mms[22m[39m
+     [33m[2m✓[22m[39m handles view dialog loading state [33m 1761[2mms[22m[39m
+     [33m[2m✓[22m[39m handles connector details from data format [33m 1348[2mms[22m[39m
+[31m     [31m×[31m handles connector with advanced settings[39m[33m 1683[2mms[22m[39m
+     [33m[2m✓[22m[39m handles edit from view dialog [33m 502[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Tests 7 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m __tests__/app/(admin)/admin/connectors/page.test.tsx[2m > [22mapp/(admin)/admin/connectors/page[2m > [22mopens create dialog
+[31m[1mError[22m: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".[39m
+[36m [2m❯[22m __tests__/app/(admin)/admin/connectors/page.test.tsx:[2m158:3[22m[39m
+    [90m156| [39m  })[33m;[39m
+    [90m157| [39m
+    [90m158| [39m  [34mit[39m([32m"opens create dialog"[39m[33m,[39m [35masync[39m () [33m=>[39m {
+    [90m   | [39m  [31m^[39m
+    [90m159| [39m    [35mconst[39m user [33m=[39m userEvent[33m.[39m[34msetup[39m()[33m;[39m
+    [90m160| [39m    [34mrenderWithProviders[39m([33m<[39m[33mConnectorsPage[39m [33m/[39m[33m>[39m)[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/7]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/app/(admin)/admin/connectors/page.test.tsx[2m > [22mapp/(admin)/admin/connectors/page[2m > [22mcloses create dialog
+[31m[1mError[22m: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".[39m
+[36m [2m❯[22m __tests__/app/(admin)/admin/connectors/page.test.tsx:[2m173:3[22m[39m
+    [90m171| [39m  })[33m;[39m
+    [90m172| [39m
+    [90m173| [39m  [34mit[39m([32m"closes create dialog"[39m[33m,[39m [35masync[39m () [33m=>[39m {
+    [90m   | [39m  [31m^[39m
+    [90m174| [39m    [35mconst[39m user [33m=[39m userEvent[33m.[39m[34msetup[39m()[33m;[39m
+    [90m175| [39m    [34mrenderWithProviders[39m([33m<[39m[33mConnectorsPage[39m [33m/[39m[33m>[39m)[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/7]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/app/(admin)/admin/connectors/page.test.tsx[2m > [22mapp/(admin)/admin/connectors/page[2m > [22mhandles create form submission
+[31m[1mError[22m: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".[39m
+[36m [2m❯[22m __tests__/app/(admin)/admin/connectors/page.test.tsx:[2m188:3[22m[39m
+    [90m186| [39m  })[33m;[39m
+    [90m187| [39m
+    [90m188| [39m  [34mit[39m([32m"handles create form submission"[39m[33m,[39m [35masync[39m () [33m=>[39m {
+    [90m   | [39m  [31m^[39m
+    [90m189| [39m    [35mconst[39m user [33m=[39m userEvent[33m.[39m[34msetup[39m()[33m;[39m
+    [90m190| [39m    [34mrenderWithProviders[39m([33m<[39m[33mConnectorsPage[39m [33m/[39m[33m>[39m)[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/7]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/app/(admin)/admin/connectors/page.test.tsx[2m > [22mapp/(admin)/admin/connectors/page[2m > [22mhandles create form validation errors
+[31m[1mError[22m: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".[39m
+[36m [2m❯[22m __tests__/app/(admin)/admin/connectors/page.test.tsx:[2m215:3[22m[39m
+    [90m213| [39m  })[33m;[39m
+    [90m214| [39m
+    [90m215| [39m  [34mit[39m([32m"handles create form validation errors"[39m[33m,[39m [35masync[39m () [33m=>[39m {
+    [90m   | [39m  [31m^[39m
+    [90m216| [39m    [35mconst[39m user [33m=[39m userEvent[33m.[39m[34msetup[39m()[33m;[39m
+    [90m217| [39m    [34mrenderWithProviders[39m([33m<[39m[33mConnectorsPage[39m [33m/[39m[33m>[39m)[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/7]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/app/(admin)/admin/connectors/page.test.tsx[2m > [22mapp/(admin)/admin/connectors/page[2m > [22mopens delete dialog
+[31m[1mTestingLibraryElementError[22m[39m: Unable to find an element with the text: /Delete Connector/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body[39m
+  [33mdata-scroll-locked[39m=[32m"1"[39m
+  [33mstyle[39m=[32m"pointer-events: none;"[39m
+[36m>[39m
+  [36m<span[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mdata-aria-hidden[39m=[32m"true"[39m
+    [33mdata-radix-focus-guard[39m=[32m""[39m
+    [33mstyle[39m=[32m"outline: none; opacity: 0; position: fixed; pointer-events: none;"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+  [36m<div[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mdata-aria-hidden[39m=[32m"true"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"space-y-6 p-4 md:p-6"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"rounded-xl border border-blue-200/50 bg-gradient-to-r from-blue-500/10 via-cyan-500/10 to-blue-500/10 p-6 shadow-sm dark:border-blue-800/50 md:p-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mb-3 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-start gap-3 sm:gap-4"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"rounded-xl bg-blue-500 p-2 shadow-md sm:p-3"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mclass[39m=[32m"lucide lucide-plug h-5 w-5 text-white sm:h-6 sm:w-6"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"24"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"24"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M12 22v-5"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M9 8V2"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M15 8V2"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</div>[39m
+            [36m<div>[39m
+              [36m<h1[39m
+                [33mclass[39m=[32m"text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl"[39m
+              [36m>[39m
+                [0mConnector Management[0m
+              [36m</h1>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-muted-foreground mt-1 text-sm dark:text-gray-400 sm:text-base"[39m
+              [36m>[39m
+                [0mManage SMS connectors and network configurations[0m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex flex-col gap-3 sm:flex-row sm:items-center"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary hover:bg-primary/90 px-4 py-2 h-10 w-full rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-lg shadow-blue-500/25 transition-all hover:from-blue-700 hover:to-blue-800 hover:shadow-xl hover:shadow-blue-500/30 sm:w-auto"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-plus mr-2 h-4 w-4"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M5 12h14"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M12 5v14"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mCreate Connector[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"text-card-foreground rounded-3xl border border-gray-200 bg-white shadow-xl dark:border-gray-800 dark:bg-gray-900"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex flex-col space-y-1.5 border-b border-gray-200/50 p-6 dark:border-gray-800/50"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"[39m
+          [36m>[39m
+            [36m<div>[39m
+              [36m<h3[39m
+                [33mclass[39m=[32m"tracking-tight flex items-center gap-3 text-xl font-bold text-gray-900 dark:text-white sm:text-2xl"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/10 to-cyan-500/10"[39m
+                [36m>[39m
+                  [36m<svg[39m
+                    [33maria-hidden[39m=[32m"true"[39m
+                    [33mclass[39m=[32m"lucide lucide-plug h-5 w-5 text-blue-600 dark:text-blue-400"[39m
+                    [33mfill[39m=[32m"none"[39m
+                    [33mheight[39m=[32m"24"[39m
+                    [33mstroke[39m=[32m"currentColor"[39m
+                    [33mstroke-linecap[39m=[32m"round"[39m
+                    [33mstroke-linejoin[39m=[32m"round"[39m
+                    [33mstroke-width[39m=[32m"2"[39m
+                    [33mviewBox[39m=[32m"0 0 24 24"[39m
+                    [33mwidth[39m=[32m"24"[39m
+                    [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                  [36m>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M12 22v-5"[39m
+                    [36m/>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M9 8V2"[39m
+                    [36m/>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M15...
+
+Ignored nodes: comments, script, style
+[36m<body[39m
+  [33mdata-scroll-locked[39m=[32m"1"[39m
+  [33mstyle[39m=[32m"pointer-events: none;"[39m
+[36m>[39m
+  [36m<span[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mdata-aria-hidden[39m=[32m"true"[39m
+    [33mdata-radix-focus-guard[39m=[32m""[39m
+    [33mstyle[39m=[32m"outline: none; opacity: 0; position: fixed; pointer-events: none;"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+  [36m<div[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mdata-aria-hidden[39m=[32m"true"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"space-y-6 p-4 md:p-6"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"rounded-xl border border-blue-200/50 bg-gradient-to-r from-blue-500/10 via-cyan-500/10 to-blue-500/10 p-6 shadow-sm dark:border-blue-800/50 md:p-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mb-3 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-start gap-3 sm:gap-4"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"rounded-xl bg-blue-500 p-2 shadow-md sm:p-3"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mclass[39m=[32m"lucide lucide-plug h-5 w-5 text-white sm:h-6 sm:w-6"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"24"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"24"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M12 22v-5"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M9 8V2"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M15 8V2"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</div>[39m
+            [36m<div>[39m
+              [36m<h1[39m
+                [33mclass[39m=[32m"text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl"[39m
+              [36m>[39m
+                [0mConnector Management[0m
+              [36m</h1>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-muted-foreground mt-1 text-sm dark:text-gray-400 sm:text-base"[39m
+              [36m>[39m
+                [0mManage SMS connectors and network configurations[0m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex flex-col gap-3 sm:flex-row sm:items-center"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary hover:bg-primary/90 px-4 py-2 h-10 w-full rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-lg shadow-blue-500/25 transition-all hover:from-blue-700 hover:to-blue-800 hover:shadow-xl hover:shadow-blue-500/30 sm:w-auto"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-plus mr-2 h-4 w-4"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M5 12h14"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M12 5v14"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mCreate Connector[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"text-card-foreground rounded-3xl border border-gray-200 bg-white shadow-xl dark:border-gray-800 dark:bg-gray-900"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex flex-col space-y-1.5 border-b border-gray-200/50 p-6 dark:border-gray-800/50"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"[39m
+          [36m>[39m
+            [36m<div>[39m
+              [36m<h3[39m
+                [33mclass[39m=[32m"tracking-tight flex items-center gap-3 text-xl font-bold text-gray-900 dark:text-white sm:text-2xl"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/10 to-cyan-500/10"[39m
+                [36m>[39m
+                  [36m<svg[39m
+                    [33maria-hidden[39m=[32m"true"[39m
+                    [33mclass[39m=[32m"lucide lucide-plug h-5 w-5 text-blue-600 dark:text-blue-400"[39m
+                    [33mfill[39m=[32m"none"[39m
+                    [33mheight[39m=[32m"24"[39m
+                    [33mstroke[39m=[32m"currentColor"[39m
+                    [33mstroke-linecap[39m=[32m"round"[39m
+                    [33mstroke-linejoin[39m=[32m"round"[39m
+                    [33mstroke-width[39m=[32m"2"[39m
+                    [33mviewBox[39m=[32m"0 0 24 24"[39m
+                    [33mwidth[39m=[32m"24"[39m
+                    [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                  [36m>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M12 22v-5"[39m
+                    [36m/>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M9 8V2"[39m
+                    [36m/>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M15...
+[90m [2m❯[22m waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:[2m163:27[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m86:33[22m[39m
+[36m [2m❯[22m __tests__/app/(admin)/admin/connectors/page.test.tsx:[2m311:25[22m[39m
+    [90m309| [39m    [35mawait[39m user[33m.[39m[34mclick[39m(deleteBtn)[33m;[39m
+    [90m310| [39m
+    [90m311| [39m    expect(await screen.findByText(/Delete Connector/i)).toBeInTheDocu…
+    [90m   | [39m                        [31m^[39m
+    [90m312| [39m  })[33m;[39m
+    [90m313| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/7]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/app/(admin)/admin/connectors/page.test.tsx[2m > [22mapp/(admin)/admin/connectors/page[2m > [22mhandles filtered connectors
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the text: /No matching connectors/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body[31m
+  [33mstyle[31m=[32m""[31m
+[36m/>[31m
+
+Ignored nodes: comments, script, style
+[36m<body[31m
+  [33mstyle[31m=[32m""[31m
+[36m/>[31m[39m
+[90m [2m❯[22m waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:[2m163:27[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m86:33[22m[39m
+[36m [2m❯[22m __tests__/app/(admin)/admin/connectors/page.test.tsx:[2m386:25[22m[39m
+    [90m384| [39m    [35mawait[39m user[33m.[39m[34mtype[39m(searchInput[33m,[39m [32m"NonExistent"[39m)[33m;[39m
+    [90m385| [39m
+    [90m386| [39m    expect(await screen.findByText(/No matching connectors/i)).toBeInT…
+    [90m   | [39m                        [31m^[39m
+    [90m387| [39m  })[33m;[39m
+    [90m388| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/7]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m __tests__/app/(admin)/admin/connectors/page.test.tsx[2m > [22mapp/(admin)/admin/connectors/page[2m > [22mhandles connector with advanced settings
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the text: /Advanced Settings/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body[31m
+  [33mstyle[31m=[32m""[31m
+[36m/>[31m
+
+Ignored nodes: comments, script, style
+[36m<body[31m
+  [33mstyle[31m=[32m""[31m
+[36m/>[31m[39m
+[90m [2m❯[22m waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:[2m163:27[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m86:33[22m[39m
+[36m [2m❯[22m __tests__/app/(admin)/admin/connectors/page.test.tsx:[2m577:25[22m[39m
+    [90m575| [39m    [35mawait[39m user[33m.[39m[34mclick[39m(viewBtn)[33m;[39m
+    [90m576| [39m
+    [90m577| [39m    expect(await screen.findByText(/Advanced Settings/i)).toBeInTheDoc…
+    [90m   | [39m                        [31m^[39m
+    [90m578| [39m  })[33m;[39m
+    [90m579| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/7]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m7 failed[39m[22m[2m | [22m[1m[32m19 passed[39m[22m[90m (26)[39m
+[2m   Start at [22m 12:49:34
+[2m   Duration [22m 22.98s[2m (transform 1.89s, setup 853ms, import 3.17s, tests 14.80s, environment 3.06s)[22m
+

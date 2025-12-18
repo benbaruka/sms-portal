@@ -1,0 +1,85 @@
+
+> SMS_Portail@2.0.0 build
+> bash -c 'unset __NEXT_PRIVATE_STANDALONE_CONFIG __NEXT_PRIVATE_ORIGIN NEXT_DEPLOYMENT_ID __NEXT_PRIVATE_RUNTIME_TYPE NEXT_OTEL_FETCH_DISABLED && next build --webpack'
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/iann/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /home/iann/code/project/sms_portail/pnpm-lock.yaml
+
+   ▲ Next.js 16.0.1 (webpack)
+   - Environments: .env
+
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 10.3s
+   Skipping validation of types
+   Collecting page data ...
+   Generating static pages (0/52) ...
+   Generating static pages (13/52) 
+   Generating static pages (26/52) 
+   Generating static pages (39/52) 
+ ✓ Generating static pages (52/52) in 2.5s
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /admin/clients/all
+├ ○ /admin/clients/create
+├ ○ /admin/clients/status
+├ ○ /admin/clients/update
+├ ○ /admin/documents/client
+├ ○ /admin/documents/types
+├ ○ /admin/documents/types/create
+├ ○ /admin/kyb/approve
+├ ○ /admin/kyb/history
+├ ○ /admin/kyb/pending
+├ ○ /admin/kyb/reject
+├ ○ /admin/roles/all
+├ ○ /admin/roles/assign-permission
+├ ○ /admin/roles/create
+├ ○ /admin/roles/revoke-permission
+├ ○ /admin/statistics/billing
+├ ○ /admin/statistics/clients
+├ ○ /admin/statistics/global
+├ ○ /admin/tokens/all
+├ ○ /admin/tokens/create
+├ ○ /admin/tokens/kyb-status
+├ ○ /admin/topup/create
+├ ○ /admin/topup/history
+├ ○ /admin/topup/request/view
+├ ○ /admin/topup/requests
+├ ○ /admin/users/all
+├ ○ /admin/users/create
+├ ○ /admin/users/status
+├ ○ /admin/users/update
+├ ○ /contacts/create
+├ ○ /contacts/groups
+├ ○ /contacts/upload
+├ ○ /dashboard
+├ ○ /documents/my-documents
+├ ○ /documents/upload
+├ ○ /error-404
+├ ○ /forgot-password
+├ ○ /messages/history
+├ ○ /messages/send
+├ ○ /notifications
+├ ○ /profile
+├ ○ /reports
+├ ○ /senders/create
+├ ○ /senders/my-senders
+├ ○ /signin
+├ ○ /signup
+├ ○ /topup/balance
+├ ○ /topup/history
+└ ○ /topup/mno
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)  prerendered as static content
+
